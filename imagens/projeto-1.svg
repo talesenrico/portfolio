@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f5f7fa"/>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#cbd5e1" stroke-opacity=".35"/></pattern>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  <rect x="120" y="62" width="560" height="286" rx="18" fill="#53657c"/>
+  <rect x="112" y="54" width="560" height="286" rx="18" fill="white" stroke="#53657c" stroke-width="3"/>
+  <path d="M112 100H672" stroke="#53657c" stroke-width="3"/>
+  <circle cx="138" cy="78" r="6" fill="#dce7f7" stroke="#53657c" stroke-width="2"/>
+  <circle cx="160" cy="78" r="6" fill="#dce7f7" stroke="#53657c" stroke-width="2"/>
+  <circle cx="182" cy="78" r="6" fill="#dce7f7" stroke="#53657c" stroke-width="2"/>
+  <rect x="150" y="136" width="100" height="100" rx="16" fill="#dce7f7" stroke="#53657c" stroke-width="3"/>
+  <text x="200" y="201" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#53657c">01</text>
+  <text x="284" y="172" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="30" fill="#53657c">Projeto 1</text>
+  <rect x="284" y="194" width="290" height="10" rx="5" fill="#e2e8f0"/>
+  <rect x="284" y="220" width="216" height="10" rx="5" fill="#e2e8f0"/>
+  <text x="150" y="294" font-family="sans-serif" font-size="23" fill="#586577">Espaço para a foto do seu projeto</text>
+  <text x="400" y="401" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#586577">IMAGEM DE EXEMPLO</text>
+</svg>

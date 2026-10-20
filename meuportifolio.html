@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tales Almeida | Portfólio</title>
+    <link rel="stylesheet" href="styleportifolio.css">
+</head>
+<body>
+
+    <!-- Topo da página com o menu de navegação -->
+    <header class="topo-site">
+        <div class="conteudo-central">
+            <a class="logo" href="#inicio">TALES ALMEIDA</a>
+            <nav class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#sobre">Sobre Mim</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo-central">
+        <!-- Bloco Principal de Apresentação -->
+        <section id="inicio" class="bloco-principal">
+            <div>
+                <p class="sub-titulo">Ciência da Computação · Insper</p>
+                <h1>Olá, eu sou Tales Almeida</h1>
+                <p class="texto-destaque">
+                    Graduando em Ciência da Computação no Insper, com foco em Python e interesse em cibersegurança. Transformo os aprendizados da faculdade em projetos para explorar, construir e resolver problemas.
+                </p>
+            </div>
+            
+            <!-- Foto de apresentação -->
+            <div class="bloco-foto">
+                <img src="foto_eu.png" alt="Foto de Tales Almeida">
+            </div>
+        </section>
+
+        <!-- Seção de Projetos -->
+        <section id="projetos" class="secao">
+            <h2>Meus Projetos</h2>
+            <div class="grade-projetos">
+                <article class="cartao cartao-projeto cartao-com-previa" data-previa>
+                    <div class="capa-projeto">
+                        <video id="previa-projeto-1" class="video-projeto" muted loop playsinline preload="none" poster="imagens/projeto-1-capa.jpg" aria-label="Prévia do jogo Hunting Game, sem áudio">
+                            <source src="videos/projeto-1-previa.mp4" type="video/mp4">
+                        </video>
+                        <img class="poster-projeto" src="imagens/projeto-1-capa.jpg" alt="Tela inicial do Hunting Game" width="1280" height="656" loading="lazy">
+                        <button class="botao-previa" type="button" aria-controls="previa-projeto-1" aria-pressed="false">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path class="simbolo-play" d="m9 5 11 7-11 7Z"/><path class="simbolo-pausa" d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>
+                            <span>Reproduzir prévia</span>
+                        </button>
+                    </div>
+                    <div class="conteudo-projeto">
+                    <h3><a class="link-projeto" href="https://github.com/talesenrico/projeto-python-individual-talesenrico" target="_blank" rel="noopener noreferrer" aria-label="Hunting Game — ver repositório no GitHub (abre em nova aba)">Hunting Game</a></h3>
+                    <p>Jogo estilo roguelike com exploração de labirintos, combate a monstros e progressão por três fases. Colete itens, gerencie sua vida e use o inventário para avançar.</p>
+                    </div>
+                </article>
+                <article class="cartao cartao-projeto">
+                    <!-- Troque o src pelo caminho da foto do seu projeto e atualize o alt. -->
+                    <img class="imagem-projeto" src="imagens/projeto-2.svg" alt="Novos projetos em breve" width="800" height="450" loading="lazy">
+                    <div class="conteudo-projeto">
+                    <h3>Mais projetos em breve</h3>
+                    <p>Novos desafios, novas ideias e mais código. Em breve, este espaço vai reunir outros projetos da minha jornada em Computação.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="secao">
+            <h2>Sobre Mim</h2>
+            <div class="cartao">
+                <p>Sou bolsista e graduando do 1º semestre de Ciência da Computação no Insper, além de ex-bolsista do programa Primeira Chance. Minha trajetória reúne conquistas em olimpíadas acadêmicas como a OBF, a OBMEP e a OMU, que fortaleceram meu raciocínio lógico, minha persistência e o interesse por novos desafios.</p>
+                <p>Hoje, levo essa curiosidade para a programação. Python é minha principal linguagem, e gosto de transformar o que aprendo em projetos que conectam lógica, criatividade e resolução de problemas.</p>
+                <p>Também faço parte de uma entidade de cibersegurança e da bateria universitária. Entre código, segurança e música, encontro diferentes formas de aprender, colaborar e construir algo em equipe.</p>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="secao">
+            <h2>Contato</h2>
+            <p class="introducao-contato">Vamos criar juntos? Entre em contato ou acompanhe meus projetos.</p>
+            <div class="grade-contatos">
+                <a class="cartao link-contato" href="mailto:talesesa@al.insper.edu.br">
+                    <svg class="icone-contato icone-outlook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                        <rect x="10" y="5" width="19" height="23" rx="3" fill="#0078d4"/>
+                        <path d="M12 11h17v14H12z" fill="#28a8ea"/>
+                        <path d="m12 12 8.5 7L29 12" fill="none" stroke="white" stroke-width="1.5"/>
+                        <rect x="1" y="8" width="17" height="19" rx="2" fill="#106ebe"/>
+                        <ellipse cx="9.5" cy="17.5" rx="4" ry="5.5" fill="none" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <span><strong>Outlook </strong><span class="detalhe-contato">talesesa@al.insper.edu.br</span></span>
+                </a>
+                <a class="cartao link-contato" href="https://github.com/talesenrico" target="_blank" rel="noopener noreferrer">
+                    <svg class="icone-contato icone-github" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                        <path d="M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.09c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.56 0-1.23.44-2.23 1.16-3.02-.12-.28-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.15a10.8 10.8 0 0 1 5.63 0c2.15-1.46 3.1-1.15 3.1-1.15.61 1.55.23 2.7.11 2.98.72.79 1.16 1.79 1.16 3.02 0 4.32-2.64 5.28-5.15 5.56.4.35.76 1.03.76 2.08v3.08c0 .3.2.65.77.54A11.25 11.25 0 0 0 12 .75Z"/>
+                    </svg>
+                    <span><strong>GitHub</strong><span class="detalhe-contato">@talesenrico</span></span>
+                </a>
+                <a class="cartao link-contato" href="https://www.linkedin.com/in/talesalmeida/" target="_blank" rel="noopener noreferrer">
+                    <svg class="icone-contato icone-linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                        <rect width="24" height="24" rx="3" fill="currentColor"/>
+                        <path fill="white" d="M5 9h3v10H5zm1.5-5a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5ZM10 9h2.9v1.4h.04C13.35 9.62 14.33 8.8 15.8 8.8c3.06 0 3.63 2 3.63 4.6V19h-3v-5c0-1.2-.02-2.73-1.67-2.73-1.67 0-1.93 1.3-1.93 2.64V19H10Z"/>
+                    </svg>
+                    <span><strong>LinkedIn</strong><span class="detalhe-contato">@talesalmeida</span></span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape-site">
+        <div class="conteudo-central">
+            <p>Tales Almeida · Portfólio Acadêmico</p>
+        </div>
+    </footer>
+
+    <script src="previa-projeto.js" defer></script>
+</body>
+</html>

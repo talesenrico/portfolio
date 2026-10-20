@@ -1,0 +1,11 @@
+# Cópias de segurança locais
+backup-*/
+
+# Arquivos temporários e configurações locais
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+.env
+.env.*
