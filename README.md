@@ -1,38 +1,23 @@
 # Portfólio | Tales Almeida
 
-Portfólio acadêmico de Tales Almeida, bolsista e graduando em Ciência da Computação no Insper, com foco em Python e interesse em cibersegurança.
+Sou bolsista e graduando em Ciência da Computação no Insper, com foco em Python e interesse em cibersegurança. Este portfólio reúne meus projetos, minha trajetória acadêmica e os aprendizados que estou transformando em código.
 
-## Como visualizar
+## Sobre mim
 
-Abra `meuportifolio.html` no navegador. No VS Code, você também pode abrir a pasta do projeto e usar a extensão Live Server.
+Ex-bolsista do programa Primeira Chance, com conquistas em olimpíadas acadêmicas como OBF, OBMEP e OMU. No Insper, também participo de uma entidade de cibersegurança e da bateria universitária.
 
-## Conteúdo
+## Projeto em destaque
 
-- Apresentação e trajetória acadêmica.
-- Hunting Game, jogo estilo roguelike com prévia em vídeo no card e link para o repositório.
-- Espaço para novos projetos.
-- Contatos de e-mail, GitHub e LinkedIn.
+**[Hunting Game](https://github.com/talesenrico/projeto-python-individual-talesenrico)** — jogo estilo roguelike com exploração de labirintos, combate a monstros e progressão por três fases. Inclui coleta de itens, inventário e gerenciamento de vida.
 
-## Tecnologias
+Mais projetos em breve.
 
-HTML, CSS e JavaScript, sem dependências de instalação para executar o site.
+## Tecnologias do portfólio
 
-## Arquivos principais
+HTML, CSS e JavaScript, com layout responsivo e prévia interativa do jogo em vídeo.
 
-- `meuportifolio.html`: conteúdo e estrutura do site.
-- `styleportifolio.css`: estilos e layout responsivo.
-- `previa-projeto.js`: reprodução da prévia do jogo.
-- `imagens/` e `videos/`: arquivos de mídia utilizados no portfólio.
+## Contato
 
-## Salvar futuras alterações no GitHub
-
-No terminal, dentro da pasta do portfólio:
-
-```sh
-git status
-git add .
-git commit -m "Atualiza o portfólio"
-git push
-```
-
-As pastas `backup-*` são mantidas apenas no computador e ignoradas pelo Git.
+- [LinkedIn](https://www.linkedin.com/in/talesalmeida/)
+- [GitHub](https://github.com/talesenrico)
+- [E-mail](mailto:talesesa@al.insper.edu.br)
