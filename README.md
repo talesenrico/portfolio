@@ -18,6 +18,6 @@ HTML, CSS e JavaScript, com layout responsivo e pr√©via interativa do jogo em v√
 
 ## Contato
 
-- [LinkedIn](https://www.linkedin.com/in/talesalmeida/)
+- [LinkedIn](https://www.linkedin.com/in/talesesaalmeida/)
 - [GitHub](https://github.com/talesenrico)
 - [E-mail](mailto:talesesa@al.insper.edu.br)
